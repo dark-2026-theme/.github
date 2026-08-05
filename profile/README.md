@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.svg" alt="dark-2026" width="96" />
+</p>
+
 <h2 align="center">dark-2026</h2>
 
 <p align="center">
