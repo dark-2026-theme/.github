@@ -11,7 +11,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/github/stars/dark-2026-theme?style=for-the-badge&colorA=121314&colorB=3994bc&logo=github&label=Stars" alt="GitHub Org Stars" />
-  <img src="https://img.shields.io/badge/ports-4-4ec9b0?style=for-the-badge&colorA=121314" alt="4 ports" />
+  <img src="https://img.shields.io/badge/ports-5-4ec9b0?style=for-the-badge&colorA=121314" alt="5 ports" />
   <img src="https://img.shields.io/badge/highlight%20groups-638-d2a8ff?style=for-the-badge&colorA=121314" alt="638 highlight groups" />
   <img src="https://img.shields.io/github/license/dark-2026-theme/nvim?style=for-the-badge&colorA=121314&colorB=ff7b72&label=License" alt="License" />
 </p>
@@ -20,13 +20,14 @@
   <a href="https://github.com/dark-2026-theme/nvim"><strong>Neovim</strong></a> ·
   <a href="https://github.com/dark-2026-theme/ghostty">Ghostty</a> ·
   <a href="https://github.com/dark-2026-theme/kitty">kitty</a> ·
-  <a href="https://github.com/dark-2026-theme/xcode">Xcode</a>
+  <a href="https://github.com/dark-2026-theme/xcode">Xcode</a> ·
+  <a href="https://github.com/dark-2026-theme/obsidian">Obsidian</a>
 </p>
 
 ---
 
 <p align="center">
-  One palette, four targets. <code>:terminal</code> inside Neovim renders identically to<br/>
+  One palette, five targets. <code>:terminal</code> inside Neovim renders identically to<br/>
   the host terminal, because every port reads the same sixteen ANSI values.<br/><br/>
   <strong>#121314</strong> canvas &nbsp;·&nbsp; <strong>638</strong> highlight groups &nbsp;·&nbsp; <strong>28</strong> plugin integrations
 </p>
@@ -54,6 +55,7 @@
 | **Ghostty** | [dark-2026-theme/ghostty](https://github.com/dark-2026-theme/ghostty) | :white_check_mark: Available |
 | **kitty** | [dark-2026-theme/kitty](https://github.com/dark-2026-theme/kitty) | :white_check_mark: Available |
 | **Xcode** | [dark-2026-theme/xcode](https://github.com/dark-2026-theme/xcode) | :white_check_mark: Available |
+| **Obsidian** | [dark-2026-theme/obsidian](https://github.com/dark-2026-theme/obsidian) | :white_check_mark: Available |
 
 ### Palette
 
@@ -133,6 +135,18 @@ include themes/dark-2026.conf
 ```
 
 Then **Xcode ▸ Settings ▸ Themes** and pick **dark-2026**.
+
+</details>
+
+<details>
+<summary><b>Obsidian</b></summary>
+
+```sh
+mkdir -p "<vault>/.obsidian/themes/Dark 2026"
+cp theme.css manifest.json "<vault>/.obsidian/themes/Dark 2026/"
+```
+
+Restart Obsidian, then **Settings ▸ Appearance ▸ Theme ▸ Dark 2026**.
 
 </details>
 
